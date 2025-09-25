@@ -1,3 +1,4 @@
+/*
 //Exercício 3
 let numero1 = parseInt(prompt("Digite um numero inteiro: "))
 let dobro = numero1 * 2
@@ -18,14 +19,14 @@ let number1 = parseInt(prompt("Digite um numero: "));
 let quadrado = number1 * number1;
 
 alert("Seu numero ao quadrado é: " + quadrado);
-
+*/
 
 // Exercício 6
 let nota1 = parseInt(prompt("Digite a primeira nota: "))
 let nota2 = parseInt(prompt("Digite a segunda nota: "))
 let nota3 = parseInt(prompt("Digite a terceira nota: "))
 
-if((nota1, nota2, nota3 >= 0) && (nota1, nota2, nota3 <= 10)){
+if((nota1, nota2, nota3 > 0) && (nota1, nota2, nota3 < 10)){
     let media = (nota1 + nota2 + nota3) / 3
     alert("A média das notas é de: " + media)
 }
@@ -34,7 +35,7 @@ else{
     alert("Nota invalida, digite numeros entre 0 e 10")
 }
 
-
+/*
 // Exercício 7
 let num1 = parseInt(prompt("Digite três números inteiros: "))
 let num2 = parseInt(prompt(""))
@@ -70,4 +71,4 @@ let altura1 = parseFloat(prompt("Digite a altura em em metros que deseja alcanç
 let quantidadeDegraus = Math.ceil(altura1 / degrau);
 
 alert("Você precisará subir " + quantidadeDegraus + " degraus para completar a escada.");
-
+*/
